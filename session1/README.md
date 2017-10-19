@@ -212,4 +212,3 @@ The power of D3 is in something called the data joins. Data-joins may seem count
 * Call the enter() function which will then run any subsequent code over-and-over again, based on elements in the data.\
 
 ### Draw a bar chart 
-In the following code block, we store a ten numbers inside an array, then use it to create three circles.
