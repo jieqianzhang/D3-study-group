@@ -149,7 +149,7 @@ There is a standard on the web for transferring information between websites cal
 ### Creating an SVG inside of HTML
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="300px" height="200px">
-  <circle cx="150" cy="100" r="20" fill="red" stroke="black" stroke-width="3px"></circle>
+   <rect x="100" y="100" width="100" height="100" fill="blue"></rect>
 </svg>
 ```
 
@@ -164,10 +164,30 @@ Think of the svg as a canvas for drawing stuff
 ```js
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>    
-    Your code here
+    //Your code here
 </script>
 ```
-### Enter data 
+```
+<body>
+</body>
+```
+
+### Creating an SVG using D3
+```
+d3.select("body")
+  .append("svg")
+  .attr("width", 150)  //numbers are fine, don't need the px
+  .attr("height", 100) //numbers are fine, don't need the px
+  .append("circle")    //changes the selection, subsequent calls now done to the circle
+  .attr("cx", 75)
+  .attr("cy", 50)
+  .attr("r", 20)
+  .attr("fill", "red")
+  .attr("stroke", "black")
+  .attr("stroke-width", "3px");
+``` 
+
+### Binding data 
 
 
 ### Draw a bar chart 
