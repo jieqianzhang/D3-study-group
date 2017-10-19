@@ -161,15 +161,30 @@ Think of the svg as a canvas for drawing stuff
 
 # Set up D3 
 ### include a script tag and link to D3 script 
+
 ```js
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script>    
-    //Your code here
-</script>
-```
-```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Basic Bar Chart</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+    /* custom css styles will go here */
+
+    </style>
+</head>
 <body>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+        //your d3 code will go here
+
+
+    </script>
 </body>
+</html>
 ```
 
 ### Creating an SVG using D3
@@ -189,5 +204,12 @@ d3.select("body")
 
 ### Binding data 
 
+The power of D3 is in something called the data joins. Data-joins may seem counter intuitive to beginners. The process is:
+
+* Store some data as an array in a variable
+* Call the selectAll() function in D3 of a nonexistent element
+* Add the data using the data() function
+* Call the enter() function which will then run any subsequent code over-and-over again, based on elements in the data.\
 
 ### Draw a bar chart 
+In the following code block, we store a ten numbers inside an array, then use it to create three circles.
