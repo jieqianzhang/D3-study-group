@@ -98,11 +98,53 @@ Then start a localhost by typing in:
 ``python -m SimpleHTTPServer 8000``
 
 # Javascript
-##console
-##variables
-##array
-##objects
-##json
+## variables
+The **var** keyword and assignment operator 
+```
+var x = 7;
+```
+
+## array
+An array is a method of storing multiple values in a single variable.
+``var myarray = ["steph", "renee", "max", "josh"];``
+
+## console
+``console.log( myarray[2] );``
+
+## object 
+An object literal is written with curly braces. Each item in the object contains an keyword called a property and it is separated by a colon with the value of that property.
+``var person = {name: "steph", age: 28, location: "New York"};``
+`` console.log(person.name)``
+Or you can access the data by using: 
+`` console.log(person["name"])``
+
+## JSON
+There is a standard on the web for transferring information between websites called JavaScript Object Notation, or JSON. It is simply a combination of JavaScript object notation and arrays. JSON is used by many other programming languages than JavaScript, and has cemented itself as a standard format for data. This is why understanding objects, arrays and datatypes is so crucial for understanding how JavaScript works.
+
+```
+{
+    "firstName": "Stephanie",
+    "lastName": "Stamm",
+    "age": 28,
+    "address": {
+        "streetAddress": "xx xx Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10021"
+    },
+    "phoneNumber": [
+        {
+            "type": "home",
+            "number": "123456789"
+        },
+        {
+            "type": "fax",
+            "number": "123456789"
+        }
+    ]
+}
+```
+
 
 
 # Set up D3 
@@ -114,5 +156,6 @@ Then start a localhost by typing in:
 </script>
 ```
 ## Enter data 
+
 
 ## Draw a bar chart 
