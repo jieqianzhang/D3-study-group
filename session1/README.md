@@ -62,10 +62,11 @@ h1{
 }
 ```
 
-```h1 #headline{
+```#headline{
     color: black;
 }
 ```
+
 ```
 h1{
     color: yellow; 
