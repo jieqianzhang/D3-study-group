@@ -4,8 +4,11 @@ First of all, you need a text editor, please download Sublime from here: https:/
 
 ## Vocabulary words for HTML
 Developer Tools / Web Inspector / Dev Tools
+
 HTML tags
+
 DOM
+
 Attribute
 
 ### Developer Tools / Web Inspector / Dev Tools
@@ -13,9 +16,11 @@ By using web inspector in browsers, you can inspect the “DOM” or Document Ob
 
 ### HTML tags
 Opening Tag ``<p>``
+
 Closing Tag ``</p>``
 
 Block elements: div, h1, p, ul, li
+
 Inline elements: span, a, img, strong, em
 
 ### Attributes
