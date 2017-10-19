@@ -206,7 +206,7 @@ d3.select("body")
 
 The power of D3 is in something called the data joins. Data-joins may seem counter intuitive to beginners. The process is:
 
-* Store some data as an array in a variable
+* Store some data as an array in a variable/import data from an external data file
 * Call the selectAll() function in D3 of a nonexistent element
 * Add the data using the data() function
 * Call the enter() function which will then run any subsequent code over-and-over again, based on elements in the data.
