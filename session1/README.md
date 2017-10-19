@@ -209,6 +209,6 @@ The power of D3 is in something called the data joins. Data-joins may seem count
 * Store some data as an array in a variable
 * Call the selectAll() function in D3 of a nonexistent element
 * Add the data using the data() function
-* Call the enter() function which will then run any subsequent code over-and-over again, based on elements in the data.\
+* Call the enter() function which will then run any subsequent code over-and-over again, based on elements in the data.
 
 ### Draw a bar chart 
