@@ -162,7 +162,7 @@ Think of the svg as a canvas for drawing stuff
 # Set up D3 
 ### include a script tag and link to D3 script 
 
-```js
+```
 <!DOCTYPE html>
 <html>
 <head>
