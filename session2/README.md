@@ -20,7 +20,10 @@ Visually, we want to do the following:
 
 ![alt text](https://s3.amazonaws.com/dashingd3js/images/d3.js_scales_scale_domain_down_to_range_300x300.png "")
 
-### d3.scaleLinear()
+The scale function not only can transform number into number, it can also take an input of category or date, and make an output of color or coordinates. 
+
+We are going to follow the tutorial here to learn about different types of scales: 
+http://d3indepth.com/scales/ 
 
 ### d3.min
 
