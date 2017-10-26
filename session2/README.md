@@ -17,6 +17,7 @@ svg.append("g")
 In the case below, we are transforming input data between (and including) 0 and 10,000, into output data between (and including) 0 and 100.
 
 Visually, we want to do the following: 
+
 ![alt text](https://s3.amazonaws.com/dashingd3js/images/d3.js_scales_scale_domain_down_to_range_300x300.png "")
 
 ### d3.scaleLinear()
