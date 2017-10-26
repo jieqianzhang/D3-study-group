@@ -25,6 +25,8 @@ The scale function not only can transform **number** into **number**, it can als
 We are going to follow the tutorial here to learn about different types of scales: 
 http://d3indepth.com/scales/ 
 
+
+## How to define a scale when the data is dynamic?
 ### d3.min
 
 ### d3.max
