@@ -28,9 +28,13 @@ http://d3indepth.com/scales/
 
 ## How to define a scale when the data is dynamic?
 ### d3.min
+```d3.min(data, function(d){ return d["repMinusDemDiff"]})```
 
 ### d3.max
+```d3.max(data, function(d){ return d["repMinusDemDiff"]})```
 
+### d3.extent
+```colorScale.domain([d3.min(data, function(d){ return d["repMinusDemDiff"]}), 0, d3.max(data, function(d){ return d["repMinusDemDiff"]})])```
 
 ## Readings: 
 https://www.dashingd3js.com/d3js-scales 
